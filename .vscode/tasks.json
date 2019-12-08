@@ -8,6 +8,7 @@
             "command": "nim",
             "args": [
                 "c",
+                "-o:./bin/${fileBasenameNoExtension}",
                 "-r",
                 "${file}"
             ],
